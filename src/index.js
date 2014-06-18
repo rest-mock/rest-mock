@@ -183,7 +183,7 @@ RESTMock.prototype.init = function(data){
             responses.forEach(function(_response){
                 if( response ){ return; }
                 if( _response.active ){
-                    response = JSON.parse(_response.body);
+                    response = JSON.parse(_response.response);
                 }
             });
 
@@ -202,7 +202,7 @@ RESTMock.prototype.init = function(data){
 
                 //TODO: Normalice paths. We need to make sure we have or haven't trailing slashes in both paths
                 if( generatedPath === params.path ){
-                    response = JSON.parse(_response.body);
+                    response = JSON.parse(_response.response);
                 }
             });
 
