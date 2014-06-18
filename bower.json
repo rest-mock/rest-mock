@@ -6,7 +6,7 @@
     "Andres Sainz <andressainz@gmail.com>"
   ],
   "description": "This module contains the logic for rest-mock to select the correct service and scenario",
-  "main": "src/rest-mock.js",
+  "main": "src/index.js",
   "moduleType": [
     "node"
   ],

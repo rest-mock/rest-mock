@@ -1,0 +1,19 @@
+{
+  "name": "rest-mock",
+  "version": "0.1.0",
+  "description": "This module contains the logic for rest-mock to select the correct service and scenario",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rest-mock/rest-mock.git"
+  },
+  "author": "Andres Sainz (andressainz@gmail.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rest-mock/rest-mock/issues"
+  },
+  "homepage": "https://github.com/rest-mock/rest-mock"
+}
