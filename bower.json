@@ -1,0 +1,21 @@
+{
+  "name": "rest-mock",
+  "version": "0.1.0",
+  "homepage": "https://github.com/rest-mock/rest-mock",
+  "authors": [
+    "Andres Sainz <andressainz@gmail.com>"
+  ],
+  "description": "This module contains the logic for rest-mock to select the correct service and scenario",
+  "main": "src/rest-mock.js",
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
