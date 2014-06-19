@@ -1,5 +1,10 @@
 RESTMock = function(){}
 
+// If we're on a node env, we include the dependecies. Otherwise, they should be global.
+if( exports ){
+    var _ = require('underscore');
+}
+
 RESTMock.prototype.init = function(data){
     var self = this;
     self.data = data;
