@@ -86,7 +86,7 @@ RESTMock.prototype.init = function(data){
             }
 
             //TODO: Hanle the case then the pattern type is not specifid
-            var patternType = _.findWhere(patternParams, {type: patternSegment.replace(':', '')}).type;
+            var patternType = _.findWhere(patternParams, {key: patternSegment.replace(':', '')}).type;
             var patternRegexp;
             switch(patternType){
                 case 'numeric':
