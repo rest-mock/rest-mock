@@ -10,6 +10,9 @@
   "moduleType": [
     "node"
   ],
+  "dependencies":{
+    "underscore": "^1.6.0"
+  },
   "license": "MIT",
   "ignore": [
     "**/.*",
