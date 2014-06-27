@@ -5,6 +5,10 @@ if( exports ){
     var _ = require('underscore');
 }
 
+RESTMock.prototype.updateData = function(data){
+    this.data = data;
+};
+
 RESTMock.prototype.init = function(data){
     var self = this;
     self.data = data;

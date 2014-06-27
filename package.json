@@ -1,6 +1,6 @@
 {
   "name": "rest-mock",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "This module contains the logic for rest-mock to select the correct service and scenario",
   "main": "src/index.js",
   "scripts": {
