@@ -5,10 +5,6 @@ if( exports ){
     var _ = require('underscore');
 }
 
-RESTMock.prototype.updateData = function(data){
-    this.data = data;
-};
-
 RESTMock.prototype.init = function(data){
     var self = this;
     self.data = data;
@@ -224,12 +220,17 @@ RESTMock.prototype.init = function(data){
         }
     }
 
+    function updateData(data){
+        self.data = data;
+    }
+
     return {
         getAllServices: getAllServices,
         getServiceByPath: getServiceByPath,
         getServiceById: getServiceById,
         getAllResponses: getAllResponses,
-        getResponse: getResponse
+        getResponse: getResponse,
+        updateData: updateData
     };
 }
 
